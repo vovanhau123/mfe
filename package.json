@@ -1,0 +1,11 @@
+{
+    "name": "my-microfrontends",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "concurrently \"npm start --prefix mfe1\" \"npm start --prefix mfe2\""
+    },
+    "devDependencies": {
+        "concurrently": "^6.5.1"
+    }
+}
